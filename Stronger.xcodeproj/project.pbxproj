@@ -11,6 +11,15 @@
 		A15EA54927CE8B7800C6CEA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15EA54827CE8B7800C6CEA7 /* ContentView.swift */; };
 		A15EA54B27CE8B7900C6CEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15EA54A27CE8B7900C6CEA7 /* Assets.xcassets */; };
 		A15EA54E27CE8B7900C6CEA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15EA54D27CE8B7900C6CEA7 /* Preview Assets.xcassets */; };
+		A15EA55627CE984D00C6CEA7 /* Excercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15EA55527CE984D00C6CEA7 /* Excercise.swift */; };
+		A15EA55827CE9B0B00C6CEA7 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15EA55727CE9B0B00C6CEA7 /* ColorExtensions.swift */; };
+		A1912F8227CEA24F00782A74 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1912F8127CEA24F00782A74 /* SearchBar.swift */; };
+		A1912F8527CEA9BE00782A74 /* BodyPartFilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1912F8427CEA9BE00782A74 /* BodyPartFilterButton.swift */; };
+		A1912F8927CEAACC00782A74 /* Excercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1912F8827CEAACC00782A74 /* Excercises.swift */; };
+		A1912F8D27CECD5600782A74 /* ExercisesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1912F8C27CECD5600782A74 /* ExercisesListCell.swift */; };
+		A1912F9027CF0E9700782A74 /* AddingWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1912F8F27CF0E9700782A74 /* AddingWorkout.swift */; };
+		A1912F9227CF1CAF00782A74 /* CategoryFilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1912F9127CF1CAF00782A74 /* CategoryFilterButton.swift */; };
+		A1912F9427CFCA6400782A74 /* testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1912F9327CFCA6400782A74 /* testing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		A15EA54827CE8B7800C6CEA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A15EA54A27CE8B7900C6CEA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A15EA54D27CE8B7900C6CEA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A15EA55527CE984D00C6CEA7 /* Excercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercise.swift; sourceTree = "<group>"; };
+		A15EA55727CE9B0B00C6CEA7 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		A1912F8127CEA24F00782A74 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		A1912F8427CEA9BE00782A74 /* BodyPartFilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPartFilterButton.swift; sourceTree = "<group>"; };
+		A1912F8827CEAACC00782A74 /* Excercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercises.swift; sourceTree = "<group>"; };
+		A1912F8C27CECD5600782A74 /* ExercisesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesListCell.swift; sourceTree = "<group>"; };
+		A1912F8F27CF0E9700782A74 /* AddingWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingWorkout.swift; sourceTree = "<group>"; };
+		A1912F9127CF1CAF00782A74 /* CategoryFilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFilterButton.swift; sourceTree = "<group>"; };
+		A1912F9327CFCA6400782A74 /* testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,9 @@
 		A15EA54527CE8B7800C6CEA7 /* Stronger */ = {
 			isa = PBXGroup;
 			children = (
+				A1912F8627CEAAAC00782A74 /* Views */,
+				A15EA55927CE9B1400C6CEA7 /* Extensions */,
+				A15EA55427CE983400C6CEA7 /* Structs */,
 				A15EA54627CE8B7800C6CEA7 /* StrongerApp.swift */,
 				A15EA54827CE8B7800C6CEA7 /* ContentView.swift */,
 				A15EA54A27CE8B7900C6CEA7 /* Assets.xcassets */,
@@ -65,6 +86,52 @@
 				A15EA54D27CE8B7900C6CEA7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A15EA55427CE983400C6CEA7 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				A15EA55527CE984D00C6CEA7 /* Excercise.swift */,
+			);
+			name = Structs;
+			sourceTree = "<group>";
+		};
+		A15EA55927CE9B1400C6CEA7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A15EA55727CE9B0B00C6CEA7 /* ColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A1912F8327CEA74800782A74 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				A1912F8127CEA24F00782A74 /* SearchBar.swift */,
+				A1912F8427CEA9BE00782A74 /* BodyPartFilterButton.swift */,
+				A1912F8C27CECD5600782A74 /* ExercisesListCell.swift */,
+				A1912F8F27CF0E9700782A74 /* AddingWorkout.swift */,
+				A1912F9127CF1CAF00782A74 /* CategoryFilterButton.swift */,
+				A1912F9327CFCA6400782A74 /* testing.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		A1912F8627CEAAAC00782A74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1912F8727CEAAB900782A74 /* Excercises */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1912F8727CEAAB900782A74 /* Excercises */ = {
+			isa = PBXGroup;
+			children = (
+				A1912F8327CEA74800782A74 /* SubViews */,
+				A1912F8827CEAACC00782A74 /* Excercises.swift */,
+			);
+			path = Excercises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +206,15 @@
 			files = (
 				A15EA54927CE8B7800C6CEA7 /* ContentView.swift in Sources */,
 				A15EA54727CE8B7800C6CEA7 /* StrongerApp.swift in Sources */,
+				A1912F8227CEA24F00782A74 /* SearchBar.swift in Sources */,
+				A1912F8927CEAACC00782A74 /* Excercises.swift in Sources */,
+				A1912F8D27CECD5600782A74 /* ExercisesListCell.swift in Sources */,
+				A1912F9027CF0E9700782A74 /* AddingWorkout.swift in Sources */,
+				A1912F8527CEA9BE00782A74 /* BodyPartFilterButton.swift in Sources */,
+				A15EA55627CE984D00C6CEA7 /* Excercise.swift in Sources */,
+				A15EA55827CE9B0B00C6CEA7 /* ColorExtensions.swift in Sources */,
+				A1912F9427CFCA6400782A74 /* testing.swift in Sources */,
+				A1912F9227CF1CAF00782A74 /* CategoryFilterButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
